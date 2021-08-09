@@ -1,15 +1,43 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+}
+/* Задали основной цвет, шрифт */
+body {
+  font-family: Roboto;
+  color: var(--primary-text-color);
+  background-color: #e5e5e5;
+}
+/* Убрали точки со ссылок */
+.list {
+  list-style: none;
+}
+/* Добавили стили контактов в Хеадер*/
 .contact-link {
-  color: rgba(33, 33, 33, 1);
+  color: var(--primary-text-color);
 }
-
-.contact-link:hover {
-  color: rgba(33, 150, 243, 1);
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
 }
-
-.link-whitecolor {
-  color: rgba(255, 255, 255, 1);
+/* Добавили стили ссылок в Футер */
+.link-bottom {
+  color: rgba(255, 255, 255, 0.6);
 }
-
-.link-whitecolor:hover {
-  color: rgba(33, 150, 243, 1);
+.link-bottom:hover,
+.link-bottom:focus {
+  color: #ffffff;
+}
+/* Оформили стили кнопок в Портфолио */
+.style-scope-button {
+  color: #f5f4fa;
+}
+/* Оформили стили заголовков */
+.section-title {
+  color: var(--primary-text-color);
+}
+/* Оформили стили текста */
+.title {
+  color: var(--primary-text-color);
 }
