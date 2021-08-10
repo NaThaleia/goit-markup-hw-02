@@ -8,7 +8,7 @@
 }
 /* Задали основной цвет, шрифт */
 body {
-  font-family: Roboto;
+  font-family: 'Roboto';
   color: var(--primary-text-color);
   background-color: var(--rare-text-color);
 }
@@ -51,16 +51,25 @@ a {
 .link-bottom:focus {
   color: var(--rare-text-color);
 }
+/* Изменили цвет параграфам */
+.text-description {
+  color: var(--secondary-text-color);
+}
 /* Оформили стили текста и заголовков */
-.section-title .title {
+.section-title,
+.title {
   color: var(--primary-text-color);
 }
-
+/* Оформили заглавные буквы согласно макету */
+.upper {
+  text-transform: uppercase;
+}
 /* Оформили стили списка кнопок в Портфолио*/
 .style-scope-button {
   color: var(--primary-text-color);
   background-color: var(--background-context-color);
   border-color: transparent;
+  cursor: pointer;
 }
 .style-scope-button:hover,
 .style-scope-button:focus {
@@ -72,4 +81,9 @@ a {
   color: var(--rare-text-color);
   background-color: var(--accent-color);
   border-color: transparent;
+  cursor: pointer;
+}
+/* Оформили описание текста в работах */
+.text {
+  color: var(--secondary-text-color);
 }
