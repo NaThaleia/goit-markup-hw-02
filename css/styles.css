@@ -20,6 +20,7 @@ body {
 .contact-link {
   color: var(--primary-text-color);
 }
+.current,
 .contact-link:hover,
 .contact-link:focus {
   color: var(--accent-color);
@@ -40,14 +41,11 @@ body {
 .link-bottom:focus {
   color: var(--rare-text-color);
 }
-/* Оформили стили заголовков */
-.section-title {
+/* Оформили стили текста и заголовков */
+.section-title .title {
   color: var(--primary-text-color);
 }
-/* Оформили стили текста */
-.title {
-  color: var(--primary-text-color);
-}
+
 /* Оформили стили списка кнопок в Портфолио*/
 .style-scope-button {
   color: var(--primary-text-color);
