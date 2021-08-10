@@ -12,14 +12,24 @@ body {
   color: var(--primary-text-color);
   background-color: var(--rare-text-color);
 }
-/* Убрали точки со ссылок */
+/* Убрали подчеркивания со ссылок */
+a {
+  text-decoration: none;
+}
+/* Убрали точки со списков */
 .list {
   list-style: none;
+}
+/* Скрыли ненужные семантические заголовки */
+.hidden {
+  display: none;
 }
 /* Добавили стили навигации в Хеадер*/
 .contact-link {
   color: var(--primary-text-color);
 }
+/* Оформили все нужные элементы синим цветом */
+.color-logo,
 .current,
 .contact-link:hover,
 .contact-link:focus {
