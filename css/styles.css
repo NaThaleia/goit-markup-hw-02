@@ -2,23 +2,34 @@
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
+  --background-color: #e5e5e5;
+  --background-context-color: #f5f4fa;
+  --rare-text-color: #ffffff;
 }
 /* Задали основной цвет, шрифт */
 body {
   font-family: Roboto;
   color: var(--primary-text-color);
-  background-color: #e5e5e5;
+  background-color: var(--rare-text-color);
 }
 /* Убрали точки со ссылок */
 .list {
   list-style: none;
 }
-/* Добавили стили контактов в Хеадер*/
+/* Добавили стили навигации в Хеадер*/
 .contact-link {
   color: var(--primary-text-color);
 }
 .contact-link:hover,
 .contact-link:focus {
+  color: var(--accent-color);
+}
+/* Добавили стили контактов в Хеадер */
+.adress-link {
+  color: var(--secondary-text-color);
+}
+.adress-link:hover,
+.adress-link:focus {
   color: var(--accent-color);
 }
 /* Добавили стили ссылок в Футер */
@@ -27,11 +38,7 @@ body {
 }
 .link-bottom:hover,
 .link-bottom:focus {
-  color: #ffffff;
-}
-/* Оформили стили кнопок в Портфолио */
-.style-scope-button {
-  color: #f5f4fa;
+  color: var(--rare-text-color);
 }
 /* Оформили стили заголовков */
 .section-title {
@@ -40,4 +47,21 @@ body {
 /* Оформили стили текста */
 .title {
   color: var(--primary-text-color);
+}
+/* Оформили стили списка кнопок в Портфолио*/
+.style-scope-button {
+  color: var(--primary-text-color);
+  background-color: var(--background-context-color);
+  border-color: transparent;
+}
+.style-scope-button:hover,
+.style-scope-button:focus {
+  color: var(--rare-text-color);
+  background-color: var(--accent-color);
+}
+/* Оформили стиль кнопки в Студия */
+.button-primary {
+  color: var(--rare-text-color);
+  background-color: var(--accent-color);
+  border-color: transparent;
 }
