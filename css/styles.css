@@ -36,7 +36,8 @@ button {
   line-height: 1.2;
 }
 /* Добавили стили навигации в Хеадер*/
-.contact-link {
+.contact-link,
+.adress-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -51,10 +52,6 @@ button {
 }
 /* Добавили стили контактов в Хеадер */
 .adress-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
 .adress-link:hover,
@@ -99,6 +96,12 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.profession {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 /* Добавили стили ссылок в Футер */
 .link-bottom {
   font-weight: normal;
@@ -121,8 +124,7 @@ button {
 .section-title,
 .title,
 .world-logo,
-.logo,
-.contact-link {
+.logo {
   color: var(--primary-text-color);
 }
 /* Оформили заглавные буквы согласно макету */
