@@ -102,6 +102,19 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
 }
+/* Оформили рекламу */
+.title-adverb {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
 /* Добавили стили ссылок в Футер */
 .link-bottom {
   font-weight: normal;
@@ -120,9 +133,10 @@ button {
 .profession {
   color: var(--secondary-text-color);
 }
-/* Оформили стили текста и заголовков */
+/* Оформили цвет текста и заголовков */
 .section-title,
 .title,
+.title-adverb,
 .world-logo,
 .logo {
   color: var(--primary-text-color);
@@ -133,6 +147,11 @@ button {
 }
 /* Оформили стили списка кнопок в Портфолио*/
 .style-scope-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
   background-color: var(--background-context-color);
   border-color: transparent;
@@ -155,12 +174,4 @@ button {
   background-color: var(--accent-color);
   border-color: transparent;
   cursor: pointer;
-}
-/* Оформили описание текста в работах */
-.text {
-  color: var(--secondary-text-color);
-}
-/* Оформили стили профессии */
-.profession {
-  color: var(--secondary-text-color);
 }
