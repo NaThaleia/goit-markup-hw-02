@@ -176,3 +176,8 @@ button {
   border-color: transparent;
   cursor: pointer;
 }
+/* Оформили ховер и фокус кнопке в Студия */
+.button-primary:hover,
+.button-primary:focus {
+  background-color: #188ce8;
+}
